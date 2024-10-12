@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClientInfoCardComponent implements OnInit {
   herdarColor: string = 'red';
+large: any;
 
   ngOnInit(){
     setTimeout(() =>{ this.herdarColor = 'blue'}, 3000);

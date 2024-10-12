@@ -15,6 +15,8 @@ import { CardHeaderDirective } from './components/card/directives/base/card-head
 import { CardContentDirective } from './components/card/directives/base/card-content.directive';
 import { CardTitleTextDirective } from './components/card/directives/texts/card-title-text.directive';
 import { CardDescriptionTextDirective } from './components/card/directives/texts/card-description-text.directive';
+import { CardMediumIconDirective } from './components/card/directives/icons/card-medium-icon.directive';
+import { CardLargeIconDirective } from './components/card/directives/icons/card-large-icon.directive';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { CardDescriptionTextDirective } from './components/card/directives/texts
     CardHeaderDirective,
     CardContentDirective,
     CardTitleTextDirective,
-    CardDescriptionTextDirective
+    CardDescriptionTextDirective,
+    CardMediumIconDirective,
+    CardLargeIconDirective
   ],
   imports: [
     BrowserModule,
