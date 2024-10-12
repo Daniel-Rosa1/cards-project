@@ -7,10 +7,19 @@
   &__header{
     padding: 15px;
     background-color: rgb(233, 129, 50);
+    display: block;
 
-    &--bg-blue{
+    &[color='blue']{
       background-color: #32e9da;
     }
+
+    &[color='red']{
+      background-color: #ec074c;
+    }
+
+    /* &--bg-blue{
+      background-color: #32e9da;
+    } */
   }
 
 
@@ -20,6 +29,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: white;
+    display: block;
   }
 
 

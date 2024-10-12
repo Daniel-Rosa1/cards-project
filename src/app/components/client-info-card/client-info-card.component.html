@@ -1,8 +1,10 @@
-<div class="ca-c-card">
-  <div class="ca-c-card__header ca-c-card__header--bg-blue">
+<app-card>
+
+  <app-card-header [attr.color]="herdarColor" >
     <app-card-title title="Informações do Cliente" iconSrc="icon-client.png"></app-card-title>
-  </div>
-  <div class="ca-c-card__content">
+  </app-card-header>
+
+  <app-card-content>
 
     <app-card-item text="Nome" value="FELIPE DA SILVA FREITAS"></app-card-item>
     <app-card-line></app-card-line>
@@ -15,6 +17,6 @@
 
     <app-card-item text="Nacionalidade" value="Brasileiro"></app-card-item>
 
-  </div>
+  </app-card-content>
 
-</div>
+</app-card>
